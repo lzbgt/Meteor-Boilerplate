@@ -1,4 +1,4 @@
-# Spark Boilerplate
+# Meteor Boilerplate
 
 This is Meteor Boilerplate. It is still under development.
 
