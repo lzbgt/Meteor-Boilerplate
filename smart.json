@@ -1,7 +1,8 @@
 {
   "packages": {
     "jade": {},
-    "iron-router":{},
-    "iron-router-progress": {}
+    "iron-router": {},
+    "iron-router-progress": {},
+    "bootstrap-3": {}
   }
 }

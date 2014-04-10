@@ -7,7 +7,7 @@ Router.map ->
 #   this.route("home", {
 #     path: "/"
 #   });
-#   
+# 
 #   this.route("about", {
 #     path: "about"
 #   });

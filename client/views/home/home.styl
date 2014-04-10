@@ -1,0 +1,72 @@
+@import 'nib'
+
+// Mixins
+list-style(width, height, left, top, color)
+  position absolute
+  content ""
+  left left
+  top top
+  bottom 0
+  width width
+  height height
+  border-radius 2px
+  background none repeat scroll 0% 0% color
+  box-shadow 0 1px 1px rgba(0,0,0,.5) inset, 0 1px 1px rgba(255,255,255,.3)
+
+body
+  color #eee
+  font-size 16px
+  background-image url("http://subtlepatterns.com/patterns/moulin.png")
+
+ul
+  reset-box-model()
+
+  li
+    list-style-type none
+
+    a
+      padding 2px 0
+      display block
+      color rgba(255,255,255,.7)
+      text-decoration none
+      transition color .25s ease
+
+    a:hover
+      color white
+      text-decoration none
+      text-shadow 0 0 1px #ccc
+      transition color .25s ease
+
+div#main
+  position relative
+  padding-bottom 600px
+
+  h1
+    small
+      display inline-block
+      color #777
+
+  section.content
+    position relative
+    padding-top 13px
+
+    h3
+      margin 0
+    p,
+    ul
+      padding 10px
+
+    h3,
+    li
+      position relative
+      padding-left 15px
+
+    li
+      padding-bottom 10px
+
+    h3:after
+      list-style(5px, 18px, 0, 4px, #6cf)
+
+    li:after
+      list-style(10px, 6px, -3px, 10px, #f6c)
+
