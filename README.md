@@ -18,11 +18,8 @@ meteor
 * CoffeeScript
 * Iron-router
 * Iron-router-progress
+* Bootstrap 3
 * Laika (not involved yet)
-
-## UI
-
-Can be Bootstrap 3, Foundation or Semantic-UI
 
 ## Note
 
